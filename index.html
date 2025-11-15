@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abro</title>
+    <link rel="stylesheet" href="styles/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <a href="" class="logo"><span>a</span>bro</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+            <a href="#" class="btn">let's Chat <i class="bx bx-message-dots"></i></a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Abraham Kegesa</h1>
+            <h3>I'm a <span class="multiple-text"></span></h3>
+            <p>I'm an experienced and motivated IT professional, with 5+ years in the IT industry. I do Web Design, Web Development & Graphic Design.</p>
+            <div class="btn-box">
+                <a href="mailto:abroke6@gmail.com" class="btn hire-btn">Hire Me Now <i class="bx bx-right-arrow-alt"></i></a>
+                <a href="docs/Abraham Kegesa Resume.pdf" target="_blank" class="btn d-cv">Download CV <i class="bx bx-download"></i></a>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            
+        </div>
+
+        <div class="home-img">
+            <img src="img/abro_hm.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/abro_hm.png" alt="Profile picture of [Your Name]" class="aboutHero">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>5+ Years of Experience</h3>
+            <p>I'm a passionate product designer with 5 years of experience creating user-centered designs for web and mobile applications. My expertise lies in crafting intuitive UI/UX solutions, building engaging web interfaces, and designing interactive animations to enhance user experiences.</p>
+            <div class="about-btn" role="tablist">
+                <div class="abt-btn">
+                    <button role="tab" aria-selected="true" aria-controls="skills-panel" class="btn active">My Skills</button>
+                    <button role="tab" aria-selected="false" aria-controls="awards-panel" class="btn">Awards</button>
+                    <button role="tab" aria-selected="false" aria-controls="education-panel" class="btn">Education</button>
+                </div>
+                <div class="content-btn">
+                    <div id="skills-panel" role="tabpanel" aria-hidden="false" class="content active">
+                        <div class="tab-card">
+                            <div class="skill">
+                                <span>Project Management</span> <span class="float-right">96%</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="--target-width: 96%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>System Administration</span> <span class="float-right">98%</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="--target-width: 98%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>Software Development</span> <span class="float-right">90%</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="--target-width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>Database Management</span> <span class="float-right">95%</span>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="--target-width: 95%;"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="awards-panel" role="tabpanel" aria-hidden="true" class="content" hidden>
+                        <div class="tab-card">
+                            <div class="text-box">
+                            <p>Certificate in Python Django Web Development</p>
+                            <span>Udemy</span>
+                        </div>
+                        <div class="text-box">
+                            <p>Certificate in Node.js Web Development</p>
+                            <span>Udemy</span>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="education-panel" role="tabpanel" aria-hidden="true" class="content" hidden>
+                        <div class="tab-card">
+                            <div class="text-box">
+                            <p>B.Sc. Information Technology</p>
+                            <span>Jomo Kenyatta University of Agriculture and Technology</span>
+                        </div>
+                        <div class="text-box">
+                            <p>KCSE Certificate</p>
+                            <span>Nyambaria High School</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cvContent">
+                <a href="docs/abro.pdf" target="_blank" class="btn">Download CV <i class="bx bx-download"></i></a>
+            </div>
+        </div>
+</section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I build responsive, functional, and visually engaging websites that deliver great user experiences and meet modern web standards.</p>
+                <a href="#" class="btn">Read More</a>                
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-paint' ></i>
+                <h3>Graphic Design</h3>
+                <p>I craft visually compelling designs that communicate ideas clearly and creatively. From logos to social media content, I focus on aesthetics that align with brand identity and purpose.</p>
+                <a href="#" class="btn">Read More</a>                
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-server' ></i>
+                <h3>Web Hosting</h3>
+                <p>I provide reliable and secure web hosting solutions, ensuring your website stays online, loads fast, and runs smoothly with minimal downtime.</p>
+                <a href="#" class="btn">Read More</a>                
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h2 class="heading">My Portfolio</h2>
+            <span>What I have done so far</span>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="btn button mixitup-control-active" data-filter="all">All</button>
+            <button class="btn" data-filter=".web">Web Development</button>
+            <button class="btn" data-filter=".uiux">UI/UX Design</button>
+            <button class="btn" data-filter=".branding">Branding</button>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Oljabet Hospital</h3>
+                    <p>Designed and developed Oljabet Hospital Website.</p>
+                    <a href="#" class="btn btn">View Project</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/Oljabet-web.png" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Wisdom Control Enterprise</h3>
+                    <p>Designed and developed Wisdom Control Enterprise Website.</p>
+                    <a href="#" class="btn btn">Read More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/wisdom-control.png" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>abro Portfolio</h3>
+                    <p>Designed and developed abro Portfolio Website.</p>
+                    <a href="#" class="btn btn">Read More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/abro.png" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>Wisdom Control Enterprise</h3>
+                    <p>Designed and developed Wisdom Control Enterprise Website.</p>
+                    <a href="#" class="btn btn">Read More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/wisdom-control.png" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix branding">
+                <div class="portfolio-content">
+                    <h3>abro Portfolio</h3>
+                    <p>Designed and developed abro Portfolio Website.</p>
+                    <a href="#" class="btn btn">Read More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/abro.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section -->
+         <section class="blog" id="blog">
+        <div class="blog-heading">
+            <h2 class="heading">Blog</h2>
+            <span>Latest News & Posts</span>
+        </div>
+
+        <div class="blog-box swiper mySwiper">
+            <div class="cards swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/code.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Bringing Ideas to Life Through Design & Code</h2>
+                        <span class="date">Tuesday, August 8th, 2025</span>
+                        <p class="excerpt">
+                            In today’s digital world, your online presence is more than just a website it’s your brand’s first impression. I specialize in creating visually engaging, responsive, and user‑friendly websites.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/desktop.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>The Power of a Well‑Designed Website</h2>
+                        <span class="date">Tuesday, August 8th, 2025</span>
+                        <p class="excerpt">
+                            Your website is the first impression people have of you or your business and first impressions matter. A well‑designed site can communicate professionalism, build trust, and inspire action in just a few seconds.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/design.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Design That Speaks Without Words</h2>
+                        <span class="date">Tuesday, August 8th, 2025</span>
+                        <p class="excerpt">
+                            Great design isn’t just about making things look good it’s about communicating clearly, quickly, and effectively. Every design choice should reflect the message and personality of the brand behind it.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/cloud.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Reliable Hosting, Reliable Presence</h2>
+                        <span class="date">Tuesday, August 8th, 2025</span>
+                        <p class="excerpt">
+                            I provide hosting solutions that keep websites running smoothly around the clock. From small personal portfolios to larger business platforms, I make sure every site I host is secure, stable, and ready to perform.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/digital.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Crafting Digital Experiences That Make an Impact</h2>
+                        <span class="date">Tuesday, August 8th, 2025</span>
+                        <p class="excerpt">
+                            With skills in Web Design, Web Development, Graphic Design, and Web Hosting, I take a full‑circle approach to every project. I focus on clean code, thoughtful design, and reliable performance.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/team.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Collaboration Makes the Best Results</h2>
+                        <span class="date">Tuesday, August 8th, 2025</span>
+                        <p class="excerpt">
+                            Behind every great project is strong collaboration. I believe the best work happens when ideas flow both ways — when clients feel heard and their vision is brought to life with clarity and creativity.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+ 
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+    <div class="contact-info">
+            <div class="contact-heading">
+                <h2 class="heading">Contact Me</h2>
+                <span>Get In Touch with Me</span>
+            </div>
+            <div class="contact-card">
+                <h3>Get in Touch</h3>
+                <div class="info_icon">i</div>
+                <div class="info_container">
+                    <ul class="contat-info">
+                        <li><span><i class='bx  bx-pin'></i></span><a href=""> Location</a></li>
+                        <li><span><i class='bx  bx-phone'></i></span><a href="tel:+254726419675">+254 726 419 675</a></li>
+                        <li><span><i class='bx  bx-at'></i></span><a href="mailto:abroke6@hotmail.com">abroke6@hotmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="contact_social-links">
+                    <ul>
+                        <li><a href="https://www.facebook.com/Abrosoft-Technologies-1343248079145008/" target="_blank"><i class='bx bxl-facebook' ></i></a></li>
+                        <li><a href="https://twitter.com/Abrosoftltd" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCDoko3PbukAEAKgLJ2-1tCg" target="_blank"><i class="bx bxl-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/abrosofttechnologies/" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                        <li><a href="https://wa.me/+254 726 419 675" target="_blank"><i class="bx bxl-whatsapp"></i></a></li>
+                        <li><a href="https://m.me/1343248079145008/" target="_blank"><i class='bx  bx-message-detail'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-card">
+                <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea name="#" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                <div class="formBtn">
+                    <button type="submit" class="btn cbtn">Send Message</button>
+                </div>
+            </form>
+            </div>
+    </div>
+    </section>
+
+    <!-- Scroll Back to Top -->
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class='bx  bx-chevrons-up'  ></i></button>
+
+    <footer>
+        <!-- <div class="copyright">
+            <p>&copy; <script>document.write(new Date().getFullYear());</script> | Abrosoft Technologies | Designed by <a href="https://abrosofttechnologies.com/abro.html" target="_blank">abro</a></p>
+        </div> -->
+        <div class="copyright">
+            <p>&copy; <span id="copyright-year"></span> <a href="https://abrosofttechnologies.com/abro.html" target="_blank" rel="noopener noreferrer" title="Visit Abrosoft Technologies designer page">abro</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
